@@ -1,5 +1,5 @@
 {
-    "name": "quilhasoft/jasperphp-openboleto",
+    "name": "melquespaiva/jasperphp-openboleto",
     "type": "library",
     "description": "Biblioteca para geração de boletos bancários.",
     "keywords": ["boleto", "boleto bancario","jasper"],
@@ -11,9 +11,15 @@
             "email": "rogerio@quilhasoft.com.br"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/MelquesPaiva/openboleto"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
-        "openboleto/openboleto":"dev-master",
+        "melquespaiva/openboleto":"dev-master",
         "quilhasoft/jasperphp":"dev-master"
     }
 }
